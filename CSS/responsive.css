@@ -1,0 +1,99 @@
+@media(max-width: 375px){
+
+    body{
+        width: 375px;
+        height: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+    
+    .main_container{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 50px;
+    }
+    
+    .main_container .perfume_image {
+        background: url(../images/image-product-mobile.jpg) cover no-repeat center center;
+        height: 300px;
+    }
+    
+    .main_container .perfume_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+        background-color: white;
+        border:none;
+        
+    }
+    
+    .main_container .perfume_info .perfume_name{
+        font-family: 'Montserrat', sans-serif;
+        color: var( --neutral-medium-color);
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 4px;
+        margin-top: 10px;
+    }
+    
+    .main_container .perfume_info .perfume_title{
+        font-size: 40px;
+        font-family:'Fraunces', serif;
+    }
+    
+    .main_container .perfume_info .perfume_description {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: var( --neutral-medium-color);
+    }
+    
+    .main_container .perfume_info .perfume_price{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .main_container .perfume_info .perfume_price span{
+        font-family:'Fraunces', serif;
+        font-size: 40px;
+        color: var(--primary-dark-color);
+    }
+    
+    .main_container .perfume_info .perfume_price p{
+        color: var( --neutral-medium-color);
+        text-decoration: line-through;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 80px;
+    }
+    
+    .buy_btn{
+        border-radius: 10px;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--primary-dark-color);
+        transition: 0.3s;
+    }
+    
+    .buy_btn .buy_text{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: white;
+        margin-left: 10px;
+    }
+    
+    .buy_btn:hover{
+        cursor: pointer;
+        background-color: var(--neutral-dark-color);
+    }
+    }
+
+
